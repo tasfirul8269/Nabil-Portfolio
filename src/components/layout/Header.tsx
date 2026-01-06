@@ -21,7 +21,8 @@ export function Header() {
                 {/* Placeholder Nav Items - To be updated from reference */}
                 <nav className="hidden md:block">
                     <GlassSurface
-
+                        width="fit-content"
+                        height="fit-content"
                         borderRadius={50}
                         displace={15}
                         distortionScale={-150}
