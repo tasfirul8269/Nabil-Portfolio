@@ -17,7 +17,7 @@ const handleSplitTextComplete = () => {
 
 export function Hero() {
     return (
-        <section className="relative w-full min-h-screen flex flex-col pt-4 overflow-hidden">
+        <section className="relative w-full h-[1000px] flex flex-col pt-4 overflow-hidden">
             <Header />
             {/* Top Blur Background / LightRays */}
             <div className="absolute top-0 left-0 w-full h-full z-0 opacity-0 animate-fade-in-blur [animation-delay:1.5s] [animation-fill-mode:forwards] pointer-events-none overflow-hidden">
@@ -68,8 +68,8 @@ export function Hero() {
                         <SplitText
                             text="Building professional, user-friendly designs that support functionality and boost user engagement."
                             className="text-gray-400 text-[18px] font-normal leading-relaxed font-[family-name:var(--font-satoshi)]"
-                            delay={100}
-                            duration={0.6}
+                            delay={30}
+                            duration={0.5}
                             ease="power3.out"
                             splitType="chars"
                             from={{ opacity: 0, y: 40 }}
